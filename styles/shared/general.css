@@ -1,0 +1,250 @@
+/* box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+p,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+hr,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+ol {
+  list-style: none;
+}
+
+/* set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* a elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* remove default button styles */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* remove default input styles */
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  appearance: none;
+}
+
+/* remove default table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* remove default hr styles */
+hr {
+  border: none;
+  height: 0;
+}
+
+/* remove default fieldset styles */
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+/* remove default legend styles */
+legend {
+  padding: 0;
+}
+
+/* remove default quote styles */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* remove default quote styles */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* remove default abbr styles */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/* remove default b, strong styles */
+b,
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+/* remove default small styles */
+small {
+  font-size: 80%;
+}
+
+/* remove default sub, sup styles */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* remove default code, kbd, samp styles */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* remove default pre styles */
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* remove default mark styles */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/* remove default figure styles */
+figure {
+  margin: 1em 40px;
+}
+
+/* remove default img styles */
+img {
+  border-style: none;
+}
+
+/* remove default svg styles */
+svg:not([role="img"]) {
+  overflow: hidden;
+}
+
+/* remove default iframe styles */
+iframe {
+  border: none;
+}
+
+/* remove default details styles */
+details {
+  display: block;
+}
+
+/* remove default summary styles */
+summary {
+  display: list-item;
+}
+
+/* remove default audio, video styles */
+audio,
+video {
+  display: inline-block;
+}
+
+/* remove default progress styles */
+progress {
+  vertical-align: baseline;
+}
+
+/* remove default template styles */
+template {
+  display: none;
+}
+
+/* remove default hidden styles */
+[hidden] {
+  display: none;
+}

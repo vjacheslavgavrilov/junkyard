@@ -1,0 +1,65 @@
+[
+  {
+    "icon": "code",
+    "title": "github/vjacheslavgavrilov/portfolio-web",
+    "subtitle": "the code of&nbsp;my&nbsp;portfolio",
+    "link": "https://github.com/vjacheslavgavrilov/portfolio-web",
+    "id": "code"
+  },
+  {
+    "icon": "code",
+    "title": "github/vjacheslavgavrilov/fizz-buzz",
+    "subtitle": "the classic fizzbuzz in&nbsp;js",
+    "link": "https://github.com/vjacheslavgavrilov/fizz-buzz",
+    "id": "code"
+  },
+  {
+    "icon": "code",
+    "title": "github/vjacheslavgavrilov/junkyard",
+    "subtitle": "the code of&nbsp;this website",
+    "link": "https://github.com/vjacheslavgavrilov/junkyard",
+    "id": "code"
+  },
+  {
+    "icon": "code",
+    "title": "github/vjacheslavgavrilov/portfolio-wife-web",
+    "subtitle": "the code of&nbsp;my&nbsp;wife&rsquo;s portfolio",
+    "link": "https://github.com/vjacheslavgavrilov/portfolio-wife-web",
+    "id": "code"
+  },
+  {
+    "icon": "web",
+    "title": "/vjacheslavgavrilov",
+    "subtitle": "my&nbsp;portfolio",
+    "link": "https://vjacheslavgavrilov.ru/",
+    "id": "web"
+  },
+  {
+    "icon": "web",
+    "title": "/perepisala",
+    "subtitle": "my&nbsp;wife&rsquo;s portfolio",
+    "link": "https://perepisala.ru/",
+    "id": "web"
+  },
+  {
+    "icon": "design",
+    "title": "dribbble/vjacheslavgavrilov",
+    "subtitle": "a&nbsp;few of&nbsp;my&nbsp;design shots",
+    "link": "https://dribbble.com/vjacheslavgavrilov",
+    "id": "design"
+  },
+  {
+    "icon": "music",
+    "title": "youtube/quartopint",
+    "subtitle": "my&nbsp;bass guitar practice",
+    "link": "https://www.youtube.com/@QuartoPint",
+    "id": "music"
+  },
+  {
+    "icon": "social",
+    "title": "telegram/slava_vs_all",
+    "subtitle": "a&nbsp;telegram channel with my&nbsp;thoughts",
+    "link": "https://t.me/slava_vs_all",
+    "id": "social"
+  }
+]
